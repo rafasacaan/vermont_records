@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vermont Records</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="container" id="navbar">
+  <div class="row">
+
+    <div class="four columns">
+      <h3 class="logo">Vermont Records.</h3>
+    </div>
+
+    <div class="six columns offset-by-two">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a href="">artists</a></li>
+        <li class="navbar-item"><a href="">studio</a></li>
+        <li class="navbar-item"><a href="">blog</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<!-- close Navbar -->
+
+
+<div class="container">
+  <%= yield %>
+</div>
+
+</body>
+</html>

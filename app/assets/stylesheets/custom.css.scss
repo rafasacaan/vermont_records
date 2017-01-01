@@ -1,0 +1,35 @@
+/* My style */
+
+#navbar {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.logo {
+  font-family: 'Amatic SC', cursive;
+  font-size: 58px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.navbar-list {
+  margin-bottom: 5px;
+  padding-top: 45px;
+  text-align: right;
+}
+
+.navbar-list li {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 40px;
+}
+
+.navbar-list li a {
+  font-family: 'HanziPen TC';
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #444;
+}
